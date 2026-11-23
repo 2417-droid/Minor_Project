@@ -12,6 +12,9 @@ scikit-learn==1.4.0
 matplotlib==3.8.2
 seaborn==0.13.1
 
+# Interactive charts for Streamlit app
+plotly>=5.18.0
+
 # Interactive web app
 streamlit==1.31.0
 
