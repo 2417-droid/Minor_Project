@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Data files (large, downloaded programmatically)
+data/raw/*.txt
+data/raw/*.zip
+data/processed/*.csv
+data/processed/*.parquet
+
+# Model artifacts
+models/*.joblib
+
+# Generated figures (can be regenerated)
+reports/figures/*.png
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
