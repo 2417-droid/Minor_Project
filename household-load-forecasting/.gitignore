@@ -13,11 +13,7 @@ venv/
 env/
 .venv/
 
-# Data files (large, downloaded programmatically)
-data/raw/*.txt
-data/raw/*.zip
-data/processed/*.csv
-data/processed/*.parquet
+# Data files are tracked in Git LFS
 
 # Model artifacts
 models/*.joblib
